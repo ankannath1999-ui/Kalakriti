@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalakriti | Design. Architect. Execute.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="cursor" id="custom-cursor"></div>
+
+    <nav class="nav" id="main-nav">
+        <a href="#" class="nav-logo hover-target">
+            <img src="KALA%20LOGO-04.jpg" alt="Kalakriti Brand Logo" id="brand-logo"
+                onerror="this.style.display='none'; document.getElementById('logo-fallback').style.display='block';">
+            <span id="logo-fallback" style="display: none;">KALA<br>कृति</span>
+        </a>
+        <div class="nav-links">
+            <a href="#services" class="hover-target">Services</a>
+            <a href="#contact" class="hover-target">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="section hero" id="hero-section">
+            <canvas id="hero-canvas"></canvas>
+            <div class="container hero-content">
+                <h1 class="premium-reveal">
+                    <div class="text-mask"><span class="mask-inner">We design brands,</span></div>
+                    <div class="text-mask"><span class="mask-inner">architect web platforms</span></div>
+                    <div class="text-mask"><span class="mask-inner">& automated realities.</span></div>
+                </h1>
+            </div>
+        </section>
+
+        <section id="services" class="section services">
+            <div class="container">
+                <h2 class="section-title reveal-fade">Services.</h2>
+                <ul class="service-list">
+                    <li class="service-item hover-target reveal-slide">
+                        <span class="service-number">01</span>
+                        <h3 class="service-name">Complete Branding</h3>
+                        <div class="service-line"></div>
+                    </li>
+                    <li class="service-item hover-target reveal-slide">
+                        <span class="service-number">02</span>
+                        <h3 class="service-name">Web & App Deployments</h3>
+                        <div class="service-line"></div>
+                    </li>
+                    <li class="service-item hover-target reveal-slide">
+                        <span class="service-number">03</span>
+                        <h3 class="service-name">Automation Pipelines</h3>
+                        <div class="service-line"></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-footer">
+            <div class="container">
+                <p class="motto reveal-fade">Design. / Code. / Iterate. / Execute.</p>
+                <div class="massive-links">
+                    <div class="link-wrapper reveal-slide"><a href="mailto:hello@kalakriti.co"
+                            class="hover-target">Gmail.</a></div>
+                    <div class="link-wrapper reveal-slide"><a href="#" target="_blank"
+                            class="hover-target">Instagram.</a></div>
+                    <div class="link-wrapper reveal-slide"><a href="#" target="_blank"
+                            class="hover-target">LinkedIn.</a></div>
+                    <div class="link-wrapper reveal-slide"><a href="#" target="_blank" class="hover-target">Chat.</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
